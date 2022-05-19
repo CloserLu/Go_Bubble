@@ -15,7 +15,7 @@ var DB *gorm.DB
 var err error
 
 func InitDb() {
-	dsn := "root:20021020@tcp(127.0.0.1:3306)/bubble?charset=utf8mb4&parseTime=True&loc=Local"
+	dsn := "root:输入自己的密码@tcp(127.0.0.1:3306)/自己的database?charset=utf8mb4&parseTime=True&loc=Local"
 	DB, err = gorm.Open("mysql", dsn)
 	if err != nil {
 		return
