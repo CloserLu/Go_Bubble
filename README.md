@@ -1,0 +1,4 @@
+# Go_Bubble
+基于Qimi老师的课程编写的Go小项目
+
+在dao文件夹里的mysql连接时要注意输入自己的mysql账号密码喔 还有自己的database
